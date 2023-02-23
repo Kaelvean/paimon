@@ -3,7 +3,8 @@
 **描述**
 跟着Glutinous Rice项目一起学Spring Book;
 Glutinous Rice项目用的是vue2+element2,
-而这个项目尝试用vue3+element plus。跟着教程走一遍看看先.
+而这个项目尝试用vue3+element plus。
+跟着教程走一遍看看先.
 
 ### 初始化安装node_modules
 
@@ -26,6 +27,7 @@ npm run build
 ### 自定义配置
 
 查看： [Configuration Reference](https://cli.vuejs.org/config/).
+
 
 ## 关于Maven项目文件的目录结构
 
@@ -53,28 +55,7 @@ Wrapper版本可以去[官方网站](https://github.com/takari/maven-wrapper)查
 mvn -N io.takari:maven:0.7.6:wrapper -Dmaven=3.1.3
 ```
 
-安装后，查看项目结构：
-
-```ascii
-my-project
-├── .mvn
-│   └── wrapper
-│       ├── MavenWrapperDownloader.java
-│       ├── maven-wrapper.jar
-│       └── maven-wrapper.properties
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
-└── src
-    ├── main
-    │   ├── java
-    │   └── resources
-    └── test
-        ├── java
-        └── resources
-```
-
-发现多了`mvnw`、`mvnw.cmd`和`.mvn`目录，我们只需要把`mvn`命令改成`mvnw`就可以使用跟项目关联的Maven。例如：
+安装后，查看项目结构，发现多了`mvnw`、`mvnw.cmd`和`.mvn`目录，我们只需要把`mvn`命令改成`mvnw`就可以使用跟项目关联的Maven。例如：
 
 ```
 mvnw clean package
@@ -87,3 +68,38 @@ mvnw clean package
 ```
 
 可以把项目的`mvnw`、`mvnw.cmd`和`.mvn`提交到版本库中，这样就可以使所有开发人员使用统一的Maven版本。
+
+# 项目框架搭建完成，准备开始！
+
+_2023年02月23日 19:59:28_
+
+## 项目初始框架
+
+```ascii
+Paimon
+├── .mvn
+│   └── wrapper
+│       ├── maven-wrapper.jar
+│       └── maven-wrapper.properties
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── ryne
+│   ├── node_modules/
+│   ├── node_modules/
+│   ├── node_modules/
+│   ├── node_modules/
+│   ├── public
+│   │   ├── favicon.ico
+│   │   └── index.html
+│   └── src
+│       ├── java
+│       └── resources
+└── src
+    ├── main
+    │   ├── java
+    │   └── resources
+    └── test
+        ├── java
+        └── resources
+```
