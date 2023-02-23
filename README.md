@@ -1,8 +1,12 @@
 ## 项目名称：vuearl
-描述:
-跟着Glutinous Rice项目一起学Spring Book，由于Glutinous Rice项目用的是vue2+element2,而这个项目尝试用vue3+element
-plus。跟着教程走一遍看看先。
+
+**描述**
+跟着Glutinous Rice项目一起学Spring Book;
+Glutinous Rice项目用的是vue2+element2,
+而这个项目尝试用vue3+element plus。跟着教程走一遍看看先.
+
 ### 初始化安装node_modules
+
 ```
 npm install
 ```
