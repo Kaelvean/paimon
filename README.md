@@ -24,10 +24,15 @@ npm run serve
 npm run build
 ```
 
+### 可以使用以下命令清楚npm未使用的依赖
+
+```
+npm prune
+```
+
 ### 自定义配置
 
 查看： [Configuration Reference](https://cli.vuejs.org/config/).
-
 
 ## 关于Maven项目文件的目录结构
 
@@ -85,16 +90,24 @@ Paimon
 ├── mvnw.cmd
 ├── pom.xml
 ├── ryne
-│   ├── node_modules/
-│   ├── node_modules/
-│   ├── node_modules/
-│   ├── node_modules/
+│   ├── node_modules/*
+│   ├── package.json
+│   ├── jsconfig.json
+│   ├── package-lock.json
+│   ├── vue.config.js
+│   ├── babel.config.js
 │   ├── public
 │   │   ├── favicon.ico
 │   │   └── index.html
 │   └── src
-│       ├── java
-│       └── resources
+│       ├── assets/*
+│       ├── comonents/*
+│       ├── router
+│       │      └── index.js
+│       ├── views/*
+│       ├── utils/*
+│       ├── App.vue
+│       └── main.js
 └── src
     ├── main
     │   ├── java
@@ -103,3 +116,24 @@ Paimon
         ├── java
         └── resources
 ```
+
+### 安装element plus
+
+```
+npm install element-plus --save
+```
+
+### 引入element plus
+
+```javascript
+import {createApp} from 'vue'
+import App from './App.vue'
+import router from './router'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
+createApp(App).use(router).use(ElementPlus).mount('#app')
+```
+
+###  
+

@@ -2,8 +2,8 @@ const {defineConfig} = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
   devServer: {
-    open: false,               //自动打开浏览器并转到主页
-    host: '0.0.0.0',
+    open: true,               //自动打开浏览器并转到主页
+    host: 'localhost',
     port: 8087,
     proxy: {                   //设置代理
       '/api': {              //设置拦截器  拦截器格式:斜杠+拦截器名字，名字可以自己定
