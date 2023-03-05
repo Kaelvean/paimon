@@ -1,4 +1,4 @@
-# 项目名称：vuearl
+# 项目名称：Paimon
 
 **描述**
 _ 跟着Glutinous Rice项目一起学Spring Boot _
