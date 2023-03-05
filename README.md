@@ -3,9 +3,10 @@
 **描述**
 跟着Glutinous Rice项目一起学Spring Boot;
 
-Glutinous Rice这个项目尝试用vue3+element plus。
-，并尝试引入Vue-element-admin。
-跟着教程走一遍看看先.
+'跟着Glutinous Rice这个项目，
+尝试用vue3+element plus，
+并尝试引入Vue-element-admin'
+
 
 ### 初始化安装node_modules
 
