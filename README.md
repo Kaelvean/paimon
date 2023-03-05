@@ -1,8 +1,13 @@
 # 项目名称：Paimon
 
 **描述**
-_ 跟着Glutinous Rice项目一起学Spring Boot _
+_跟着Glutinous Rice项目一起学编程_
+## 技术栈
+* Spring Boot
+* Vue
+* Element-Plus
 
+## 计划
 > 逐渐引入Glutinous Rice项目的功能
 > 尝试用Vue3 + element-plus
 > 尝试使用Vue-element-admin
