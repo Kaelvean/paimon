@@ -1,7 +1,7 @@
 # 项目名称：vuearl
 
 **描述**
-跟着Glutinous Rice项目一起学Spring Boot;
+_ 跟着Glutinous Rice项目一起学Spring Boot _
 
 > 逐渐引入Glutinous Rice项目的功能
 > 尝试用Vue3 + element-plus
@@ -27,7 +27,7 @@ npm run serve
 npm run build
 ```
 
-### 可以使用以下命令清楚npm未使用的依赖
+### 可以使用以下命令清除npm未使用的依赖
 
 ```
 npm prune
@@ -37,7 +37,7 @@ npm prune
 
 查看： [Configuration Reference](https://cli.vuejs.org/config/).
 
-## 关于Maven项目文件的目录结构
+## 关于Maven项目目录结构
 
 ### 什么是mvnw
 
@@ -77,11 +77,11 @@ mvnw clean package
 
 可以把项目的`mvnw`、`mvnw.cmd`和`.mvn`提交到版本库中，这样就可以使所有开发人员使用统一的Maven版本。
 
-# 项目框架搭建完成，准备开始！
+## 项目框架搭建完成时间
 
 _2023年02月23日 19:59:28_
 
-## 项目初始框架
+### 目录结构
 
 ```ascii
 Paimon
@@ -120,13 +120,17 @@ Paimon
         └── resources
 ```
 
-### 安装element plus
 
+## 开发过程
+
+### 安装element-plus
+
+在package.json中添加或直接执行以下命令：
 ```
 npm install element-plus --save
 ```
 
-### 引入element plus
+### Vue中引入element-plus
 
 ```javascript
 import {createApp} from 'vue'
@@ -138,5 +142,5 @@ import 'element-plus/dist/index.css'
 createApp(App).use(router).use(ElementPlus).mount('#app')
 ```
 
-###  创建模块
+### 创建模块
 
