@@ -1,12 +1,13 @@
-## 项目名称：vuearl
+# 项目名称：vuearl
 
 **描述**
 跟着Glutinous Rice项目一起学Spring Boot;
 
-'跟着Glutinous Rice这个项目，
-尝试用vue3+element plus，
-并尝试引入Vue-element-admin'
+> 逐渐引入Glutinous Rice项目的功能
+> 尝试用Vue3 + element-plus
+> 尝试使用Vue-element-admin
 
+## 部署步骤
 
 ### 初始化安装node_modules
 
